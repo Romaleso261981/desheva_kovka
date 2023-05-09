@@ -10,6 +10,7 @@ body{
   line-height: 27px;
   font-weight: 300;
   color: #2C2B2B;
+  background: linear-gradient(#e66465, #9198e5);
 }
 #instagram path{
   fill: #000
