@@ -10,7 +10,8 @@ body {
   line-height: 27px;
   font-weight: 300;
   color: #2c2b2b;
-  background: linear-gradient(#e66465, #9198e5);
+  background-color: rgb(139, 153, 222, 0.3);
+  /* background: linear-gradient(#e66465, #9198e5); */
 }
 #instagram path {
   fill: #000;
@@ -33,6 +34,11 @@ a {
 
 .header {
   background-image: url(../images/bg.webp);
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -114,9 +120,9 @@ a {
   bottom: -270px;
 }
 
-.services {
+/* .services {
   padding-top: 350px;
-}
+} */
 
 .title {
   color: #21062a;
@@ -292,15 +298,17 @@ a {
   width: 350px;
   margin: 0 7px;
 }
-  .carousel__item-img {
-    display: block;
-    width: 370px;
-  }
+.carousel__item-img {
+  min-height: 350px;
+  display: block;
+  width: 370px;
+}
 .carousel__cost {
   color: red;
 }
 
 .carousel__item-box {
+  min-height: 420px;
   border: 1px solid #c4c4c4;
   padding: 6px 6px 16px 6px;
   text-align: center;
@@ -405,6 +413,7 @@ a {
 }
 
 .footer {
+  position: relative;
   background-color: #21062a;
 }
 
@@ -414,6 +423,13 @@ a {
   align-items: center;
   color: #fff;
   height: 100px;
+}
+.Footer_logo__img {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 15px;
+  left: 30px;
 }
 
 @media (max-width: 1140px) {
@@ -430,9 +446,9 @@ a {
   .header__images {
     width: 80%;
   }
-  .services {
+  /* .services {
     padding-top: 250px;
-  }
+  } */
   .services__inner {
     flex-wrap: wrap;
   }
@@ -533,9 +549,9 @@ a {
   .social {
     justify-content: center;
   }
-  .services {
+  /* .services {
     padding-top: 150px;
-  }
+  } */
   .title {
     font-size: 28px;
     line-height: 36px;
@@ -582,9 +598,9 @@ a {
     position: static;
     width: 100%;
   }
-  .services {
+  /* .services {
     padding-top: 50px;
-  }
+  } */
   .services__item {
     padding: 10px 15px 10px 60px;
   }
@@ -615,12 +631,43 @@ a {
 }
 
 @media (max-width: 340px) {
-.carousel__item-img {
-    display: block;
-    width: 240px;
-  }
   .header__title {
     font-size: 44px;
     line-height: 50px;
+  }
+  .carousel__item-title {
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  .bottom-carousel__item-title {
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #231f1f;
+  }
+  .carousel__item-code {
+    color: #fff;
+  }
+  .bottom-carousel__item-code {
+    color: #231f1f;
+  }
+  .carousel__item-text {
+    color: #fff;
+  }
+  .bottom-carousel__item-text {
+    color: #231f1f;
+  }
+  .Footer_logo__img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 65px;
+    left: 30px;
+  }
+  .carousel__item-img {
+    display: block;
+    margin-bottom: 20px;
+    width: 265px;
+    min-height: 250px;
   }
 }
