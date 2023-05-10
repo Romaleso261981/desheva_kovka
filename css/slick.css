@@ -75,10 +75,6 @@
 [dir="rtl"] .slick-slide {
   float: right;
 }
-.slick-slide img {
-  width: 370px;
-  display: block;
-}
 
 .slick-slide.slick-loading img {
   display: none;
@@ -102,11 +98,4 @@
 .slick-arrow.slick-hidden {
   display: none;
 }
-@media (max-width: 340px) {
-  .slick-slide img {
-    display: block;
-    justify-content: center;
-    text-align: center;
-    width: 300px;
-  }
-}
+
