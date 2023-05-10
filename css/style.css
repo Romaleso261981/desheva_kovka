@@ -292,6 +292,9 @@ a{
   width: 350px;
   margin: 0 7px;
 }
+.carousel__cost{
+  color: red;
+}
 
 .carousel__item-box{
   border: 1px solid #C4C4C4;
