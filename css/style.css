@@ -51,7 +51,7 @@ a{
   font-weight: 400;
   font-size: 36px;
   line-height: 54px;
-  color:#fff;
+  color: #000;
 }
 
 .header__content{
@@ -310,8 +310,6 @@ a{
 }
 
 .carousel__item-img{
-  max-width: 100%;
-  margin-bottom: 23px;
 }
 
 .carousel__item-title{
@@ -561,8 +559,12 @@ a{
     line-height: 36px;
   }
   .carousel__item-img{
-    width: 100%;
+    display: block;
+    width: 340px;
   }
+  /* .carousel__item-img{
+    width: 100%;
+  } */
 }
 
 @media (max-width: 520px){
