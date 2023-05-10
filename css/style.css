@@ -325,6 +325,16 @@ a {
 .carousel__item-title {
   font-weight: 300;
   margin-bottom: 5px;
+  color: #fff;
+}
+.carousel__item-code {
+  font-weight: 300;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.carousel__item-text {
+  color: #fff;
 }
 
 .carousel .slick-dots {
@@ -656,9 +666,7 @@ a {
   .bottom-carousel__item-code {
     color: #231f1f;
   }
-  .carousel__item-text {
-    color: #fff;
-  }
+
   .bottom-carousel__item-text {
     color: #231f1f;
   }
