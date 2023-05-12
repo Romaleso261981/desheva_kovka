@@ -665,7 +665,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
     line-height: 50px;
   }
   .carousel__item-box {
-    padding: 0;
+    padding: 5px 5px;
     min-height: 400px;
   }
   .carousel__item-title {
@@ -702,14 +702,16 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
   }
   .carousel__item-img {
     display: block;
-    margin-bottom: 20px;
-    width: 300px;
-    min-height: 180px;
+    margin: 0 auto;
+   border-radius: 7px;
+    max-width: 270px;
+    min-height: 230px;
   }
   .carousel__item-img-bottom {
     display: block;
-    margin-bottom: 20px;
-    width: 278px;
+    margin: 0 auto;
+    border-radius: 7px;
+    max-width: 270px;
     min-height: 230px;
   }
   .footer__inner {
