@@ -299,8 +299,13 @@ a {
   width: 350px;
   margin: 0 7px;
 }
+.carousel__item-img-bottom {
+  min-height: 300px;
+  display: block;
+  width: 370px;
+}
 .carousel__item-img {
-  min-height: 350px;
+  min-height: 300px;
   display: block;
   width: 370px;
 }
