@@ -314,6 +314,9 @@ a {
 }
 
 .carousel__item-box {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
   min-height: 490px;
   border: 1px solid #c4c4c4;
   padding: 6px 6px 16px 6px;
