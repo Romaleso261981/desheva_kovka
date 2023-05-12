@@ -346,6 +346,11 @@ a {
 .carousel__item-text {
   color: #f5f5f7;
 }
+.bottom-carousel__item-text_sale {
+    color: #e33f3f;
+    text-decoration: line-through;
+    text-decoration-color: rgb(9, 9, 9);
+  }
 
 .carousel .slick-dots {
   display: flex;
@@ -468,9 +473,6 @@ a {
   .header__images {
     width: 80%;
   }
-  /* .services {
-    padding-top: 250px;
-  } */
   .services__inner {
     flex-wrap: wrap;
   }
@@ -571,9 +573,6 @@ a {
   .social {
     justify-content: center;
   }
-  /* .services {
-    padding-top: 150px;
-  } */
   .title {
     font-size: 28px;
     line-height: 36px;
