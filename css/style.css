@@ -338,8 +338,13 @@ a {
   color: #fff;
 }
 
+.carousel__item-text_sale {
+  color: #e33f3f;
+  text-decoration: line-through;
+  text-decoration-color: rgb(9, 9, 9)
+}
 .carousel__item-text {
-  color: #fff;
+  color: #f5f5f7;
 }
 
 .carousel .slick-dots {
